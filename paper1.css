@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+
+/* font-family: 'poppins', italic; */
+
+*{
+  font-family: 'poppins', italic;
+  box-sizing: border-box;
+  scroll-behavior: ease;
+}
+body{
+  width: 100%;
+  height: 100%;
+}
+.container{
+  margin: 15px;
+}
+
+/* .container{
+  height: 100vh;
+  width: 100vw;
+} */
+
+.date p{
+  font-weight: bolder;
+}
+
+.date{
+  display: flex;
+  justify-content: space-between;
+}
+
+hr{
+  border: 2px solid #222;
+}
+
+.hr2{
+  border: 4px solid #000000;
+}
+
+.vl{
+  border-left: 3px solid #fff;
+  height: 80px;
+}
+
+.title{
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: #fff;
+  align-items: center;
+}
+
+.title-news{
+  color: #fff;
+  font-size: 3em;
+}
+
+.p11{
+  background-color: #ffc845;
+  height: fit-content;width: auto;
+  color: crimson;
+  font-size: 1.2em;
+  font-weight: 600;
+  padding: 5px;
+  margin: 5px;
+}
+
+.context{
+  display: flex;
+  justify-content: space-between;
+}
+
+.context-1{
+  font-size: 0.6rem;
+}
+
+.content{
+  background-color: #eee;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;justify-content: space-between;
+}
+
+.content h2{
+  font-weight: 900;
+  font-size: 5rem;
+  text-align: center;
+}
+
+.content h2 span{
+  color: red;
+ 
+}
+
+.content .pos p{
+  text-align: justify;
+  font-size: 1.1em;
+}
+
+.pos{
+ width: 100%;
+  position: relative;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: red;
+  color: #fff;
+  padding-left: 5px;
+}
+
+.content div h3{
+  background-color: #ffc845;
+  color: red;
+  font-size: 1em;
+  font-weight: 600;
+  padding: 10px;margin: 10px;
+  
+}
+
+.card{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card h5{
+  font-size: 1.1em;
+}
+
+/*.card-1 {
+  height: 200px;
+  width: 30%;
+  background-color: black;
+}
+.card-2{
+  height: 00px;
+  width: 30%;
+  background-color: black;
+} */
+
+.card-3, .card-1 ,.card-2{
+  height: auto;
+  width: 30%;
+  background-color: yellow;
+}
+
+.card-1-1{
+  background-color: black;
+  display: flex;color: white;
+  text-transform: uppercase;
+  justify-content: space-around;
+}
+
+.card-1 p { 
+  padding: 10px;
+}
+
+.card-2 p {
+  padding: 10px;
+}
+
+.card-1-1 p{
+  background-color: red;
+  padding: 10px;height: fit-content;
+}
+
+.card-2-1{
+  background-color: #eee;
+  height: 50%;
+}
+
+.card-2-2-2{
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+}
+
+
+.card-2-2-2 p{
+  background-color: red;
+  padding: 10px;height: fit-content;
+}
+
+footer{
+  height: 100%;display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.f2{
+  width: 30%;
+  font-size: .6rem;
+}
+
+.f3{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: yellow;
+  padding: 5px;border: 0;
+  outline: 4px dashed #222;
+  }
+
+.f3  h1{
+  font-weight: 900;font-size: 1.9rem;
+  color: red;margin-right: 10px;
+  
+}
+.f4 div{
+  font-family: 'Libre Barcode 39';
+  font-size: 30px;
+  text-align: center;
+}
